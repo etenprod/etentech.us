@@ -156,8 +156,8 @@
       position: absolute;
       inset: 0;
        background-image: image-set(
-    url("hero-640.webp") 1x,
-    url("hero-1080.webp") 2x
+    url("image/hero-640.webp") 1x,
+    url("image/hero-1080.webp") 2x
   );
   background-size: cover;
   background-position: center;
