@@ -981,28 +981,21 @@ html, body {
 
 /* ===== Language switcher ===== */
 .langBtn {
-  min-width: 48px;
+  width: 48px;
   height: 48px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.09);
-  color: #fff;
+  border: 0;
+  background: rgba(255,255,255,0.09);
   display: grid;
   place-items: center;
   cursor: pointer;
-  padding: 0 13px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  line-height: 1;
-  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+  padding: 0;
+  transition: background .2s ease;
 }
 
 .langBtn:hover {
-  background: rgba(255, 255, 255, 0.16);
-  border-color: rgba(255, 255, 255, 0.34);
-  transform: translateY(-1px);
+  background: rgba(255,255,255,0.16);
+  transform: none;
 }
 
 .langBtn--mobile {
