@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
   const translations = {
     uk: {
       'nav.home': 'ГОЛОВНА',
@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero.leftTitle': 'МAРКЕТИНГ<br>ЯК СИСТЕМА,<br>А НЕ ВИПАДКОВІСТЬ',
       'hero.leftDesc': 'Ми будуємо цілісні рішення, де кожен елемент працює на спільний результат.',
       'hero.rightTitle': 'КРЕАТИВНА<br>МАРКЕТИНГОВА<br>АГЕНЦІЯ',
-      'hero.desc': 'Ми створюємо бренди, що <span>виділяються</span> та маркетинг,<br>який приносить <span>результат</span>',
+      'hero.rightDesc': 'Ми створюємо бренди, що <span>виділяються</span> та маркетинг,<br>який приносить <span>результат</span>',
+      'footer.agency': 'МАРКЕТИНГОВА АГЕНЦІЯ',
       'hero.years': 'роки досвіду',
       'hero.projects': 'успішних проєктів',
 
@@ -53,7 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero.leftTitle': 'MARKETING<br>AS A SYSTEM,<br>NOT A COINCIDENCE',
       'hero.leftDesc': 'We build complete solutions where every element works toward one shared result.',
       'hero.rightTitle': 'CREATIVE<br>MARKETING<br>AGENCY',
-      'hero.desc': 'We create brands that <span>stand out</span> and marketing<br>that delivers <span>results</span>',
+      'hero.rightDesc': 'We create brands that <span>stand out</span> and marketing<br>that delivers <span>results</span>',
+      'footer.agency': 'MARKETING AGENCY',
       'hero.years': 'years of experience',
       'hero.projects': 'successful projects',
 
