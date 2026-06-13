@@ -8,8 +8,6 @@
 <link href="images/logo_icon.svg" rel="shortcut icon"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link as="image" fetchpriority="high" href="images/hero-640.webp" media="(max-width: 600px)" rel="preload"/>
-<link as="image" fetchpriority="high" href="images/hero-1080.webp" media="(min-width: 601px)" rel="preload"/>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Michroma&amp;display=swap" rel="stylesheet"/>
 <link href="css/style.css" rel="stylesheet"/>
@@ -115,46 +113,175 @@
 
 </section>
 <main>
+<section class="featuredProjects" id="projects">
+<div class="featuredProjects__inner">
+<div class="featuredProjects__head">
+<div>
+<div class="featuredProjects__eyebrow" data-i18n="featured.eyebrow">FEATURED PROJECTS</div>
+<h2 class="featuredProjects__title" data-i18n="featured.title"><span>How we helped</span><br/>other succeed</h2>
+</div>
+<a class="featuredProjects__button" data-i18n="featured.button" href="portfolio.html">See all projects</a>
+</div>
+<div class="featuredProjects__stage" data-featured-projects="">
+<article class="featuredProjects__preview" aria-live="polite">
+<div class="featuredProjects__browser">
+<div class="featuredProjects__browserTop">
+<span></span><span></span><span></span>
+</div>
+<div class="featuredProjects__mockup">
+<img alt="" class="featuredProjects__siteShot" data-project-image="" src="images/sites/previews/probouw.webp"/>
+</div>
+</div>
+<div class="featuredProjects__metric">
+<strong data-project-metric="">+64%</strong>
+<span data-project-metric-label="">Leads Growth</span>
+</div>
+</article>
+<article class="featuredProjects__info">
+<div>
+<span class="featuredProjects__tag" data-project-category="">Marketing system</span>
+<h3 data-project-title="">Local Service Brand</h3>
+</div>
+<div class="featuredProjects__infoBottom">
+<span data-project-service="">Strategy - Ads - Landing</span>
+<p data-project-description="">Turning scattered promotion into a predictable client acquisition system</p>
+</div>
+</article>
+</div>
+<div class="featuredProjects__arrows" aria-label="Project slider controls">
+<button class="featuredProjects__arrow" data-project-prev="" aria-label="Previous project" type="button">
+<svg fill="none" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+</button>
+<button class="featuredProjects__arrow" data-project-next="" aria-label="Next project" type="button">
+<svg fill="none" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+</button>
+</div>
+</div>
+</section>
 <div class="container">
 <section id="services">
-<h3 class="sectionTitle" data-i18n="services.title">ПОСЛУГИ</h3>
-<p class="sectionDesc" data-i18n="services.desc">
-          Наші послуги для малого й середнього бізнесу, якому важливо бути помітним і зрозумілим клієнтам.
+<div class="sectionKicker" data-i18n="services.kicker">SERVICES</div>
+<h3 class="sectionTitle sectionTitle--large" data-i18n="services.title">Маркетинг,<br/>що працює системно.</h3>
+<p class="sectionDesc sectionDesc--large" data-i18n="services.desc">
+          Бренд, контент, реклама й аналітика - в одній системі.
         </p>
 <div class="services">
 <article class="serviceCard">
-<div aria-hidden="true" class="icon">
-<img alt="" src="images/Vector.svg"/>
-</div>
-<h3 data-i18n="services.strategy.title">Стратегія</h3>
-<p data-i18n="services.strategy.text">Допомагаємо бізнесу зрозуміти, куди рухатись далі: що розвивати, на чому зосередитись і як залучати клієнтів у довгостроковій перспективі.</p>
-</article>
-<article class="serviceCard">
-<div aria-hidden="true" class="icon">
-<img alt="" src="images/Vector-1.svg"/>
-</div>
-<h3>SMM</h3>
-<p data-i18n="services.smm.text">Беремо на себе ведення сторінок: контент, подачу та регулярність. Робимо присутність бізнесу в соцмережах зрозумілою й корисною для клієнтів.</p>
-</article>
-<article class="serviceCard">
-<div aria-hidden="true" class="icon">
-<img alt="" src="images/Vector-2.svg"/>
-</div>
-<h3 data-i18n="services.ads.title">Реклама</h3>
-<p data-i18n="services.ads.text">Запускаємо та оптимізуємо рекламу з фокусом на звернення й продажі. Працюємо з тестами, цифрами та реальними результатами.</p>
-</article>
-<article class="serviceCard">
-<div aria-hidden="true" class="icon">
+<div aria-hidden="true" class="serviceCard__visual">
 <img alt="" src="images/Vector-3.svg"/>
 </div>
 <h3 data-i18n="services.branding.title">Брендинг</h3>
-<p data-i18n="services.branding.text">Оновлюємо або створюємо візуальний образ бізнесу: допомагаємо виглядати сучасно, впізнавано та викликати довіру.</p>
+<p data-i18n="services.branding.text">Створюємо образ бренду, який легко впізнати і якому довіряють.</p>
+<div class="serviceCard__line"></div>
+<div class="serviceCard__meta" data-i18n="services.weDo">Що входить:</div>
+<ul class="serviceCard__list">
+<li data-i18n="services.branding.item1">Позиціонування і тон бренду</li>
+<li data-i18n="services.branding.item2">Логотип і айдентика</li>
+<li data-i18n="services.branding.item3">Візуальна система</li>
+<li data-i18n="services.branding.item4">Бренд-гайд</li>
+</ul>
+</article>
+<article class="serviceCard">
+<div aria-hidden="true" class="serviceCard__visual">
+<img alt="" src="images/Vector-2.svg"/>
+</div>
+<h3 data-i18n="services.digital.title">Digital</h3>
+<p data-i18n="services.digital.text">Поєднуємо сайт, рекламу й аналітику в один шлях клієнта.</p>
+<div class="serviceCard__line"></div>
+<div class="serviceCard__meta" data-i18n="services.weDo">Що входить:</div>
+<ul class="serviceCard__list">
+<li data-i18n="services.digital.item1">Лендінги і структура сайту</li>
+<li data-i18n="services.digital.item2">Запуск реклами</li>
+<li data-i18n="services.digital.item3">Аналітика і гіпотези</li>
+<li data-i18n="services.digital.item4">Креативи для кампаній</li>
+</ul>
+</article>
+<article class="serviceCard">
+<div aria-hidden="true" class="serviceCard__visual">
+<img alt="" src="images/Vector-1.svg"/>
+</div>
+<h3>SMM</h3>
+<p data-i18n="services.smm.text">Ведемо соцмережі зрозуміло, регулярно і з фокусом на звернення.</p>
+<div class="serviceCard__line"></div>
+<div class="serviceCard__meta" data-i18n="services.weDo">Що входить:</div>
+<ul class="serviceCard__list">
+<li data-i18n="services.smm.item1">Контент-стратегія</li>
+<li data-i18n="services.smm.item2">Пости, сторіс і візуали</li>
+<li data-i18n="services.smm.item3">Планування і регулярність</li>
+<li data-i18n="services.smm.item4">Аналіз реакцій аудиторії</li>
+</ul>
+</article>
+</div>
+</section>
+<section class="consultBlock">
+<div class="consultBlock__notes">
+<span data-i18n="consult.note1">Забагато варіантів?</span>
+<span data-i18n="consult.note2">Не знаєте, що обрати?</span>
+</div>
+<div class="consultBlock__panel">
+<div class="consultBlock__mark" data-i18n="consult.free">0₴</div>
+<h3 data-i18n="consult.title">Напишіть нам</h3>
+<p data-i18n="consult.text">Обговоримо ваш бізнес, задачі і підкажемо, з чого краще почати. Це безкоштовно.</p>
+<a class="consultBlock__button" data-i18n="consult.button" href="https://t.me/etentech" rel="noopener" target="_blank">Обговорити безкоштовно</a>
+</div>
+</section>
+<section class="pricingBlock" id="pricing">
+<div class="sectionKicker" data-i18n="pricing.kicker">PRICING</div>
+<h3 class="sectionTitle sectionTitle--large" data-i18n="pricing.title">Прайс</h3>
+<div class="pricingGrid">
+<article class="priceCard">
+<div class="priceCard__panel">
+<h4 data-i18n="pricing.start.title">Start</h4>
+<p data-i18n="pricing.start.desc">Для швидкого запуску і перших тестів.</p>
+<ul>
+<li data-i18n="pricing.start.item1">Базова стратегія</li>
+<li data-i18n="pricing.start.item2">Контент-план</li>
+<li data-i18n="pricing.start.item3">Рекламна гіпотеза</li>
+<li data-i18n="pricing.start.item4">Контактна форма</li>
+<li data-i18n="pricing.start.item5">Термін: 7-10 днів</li>
+</ul>
+<div class="priceCard__price" data-i18n="pricing.start.price">після брифу</div>
+</div>
+<a data-i18n="pricing.button" href="https://t.me/etentech" rel="noopener" target="_blank">Обрати пакет</a>
+</article>
+<article class="priceCard">
+<div class="priceCard__panel">
+<h4 data-i18n="pricing.growth.title">Business</h4>
+<p data-i18n="pricing.growth.desc">Для бізнесу, якому потрібна міцна цифрова база.</p>
+<ul>
+<li data-i18n="pricing.growth.item1">Стратегія і SMM</li>
+<li data-i18n="pricing.growth.item2">Креативи і реклама</li>
+<li data-i18n="pricing.growth.item3">Щомісячна аналітика</li>
+<li data-i18n="pricing.growth.item4">Форма заявки</li>
+<li data-i18n="pricing.growth.item5">Адмін-панель</li>
+<li data-i18n="pricing.growth.item6">Термін: 14-21 день</li>
+</ul>
+<div class="priceCard__price" data-i18n="pricing.growth.price">індивідуально</div>
+</div>
+<a data-i18n="pricing.button" href="https://t.me/etentech" rel="noopener" target="_blank">Обрати пакет</a>
+</article>
+<article class="priceCard priceCard--accent">
+<div class="priceCard__panel">
+<h4 data-i18n="pricing.full.title">Pro</h4>
+<p data-i18n="pricing.full.desc">Для проєктів, яким потрібен сайт без обмежень.</p>
+<ul>
+<li data-i18n="pricing.full.item1">Брендинг або ребрендинг</li>
+<li data-i18n="pricing.full.item2">SMM + реклама</li>
+<li data-i18n="pricing.full.item3">Лендінг і аналітика</li>
+<li data-i18n="pricing.full.item4">Інтеграції: WhatsApp, Telegram, CRM</li>
+<li data-i18n="pricing.full.item5">Розширена аналітика</li>
+<li data-i18n="pricing.full.item6">Термін: 21-30 днів</li>
+</ul>
+<div class="priceCard__price" data-i18n="pricing.full.price">індивідуально</div>
+</div>
+<a data-i18n="pricing.button" href="https://t.me/etentech" rel="noopener" target="_blank">Обрати пакет</a>
 </article>
 </div>
 </section>
 <section class="faqWrap" id="faq">
-<h3 class="sectionTitle" data-i18n="faq.title">ПИТАННЯ</h3>
-<p class="sectionDesc" data-i18n="faq.desc">Найпоширеніші питання про послуги, формат роботи та співпрацю.</p>
+<div class="sectionKicker" data-i18n="faq.kicker">ПИТАННЯ</div>
+<h3 class="sectionTitle sectionTitle--large" data-i18n="faq.title">Питання,<br/>які ставлять найчастіше.</h3>
+<p class="sectionDesc sectionDesc--large" data-i18n="faq.desc">Найпоширеніші питання про послуги, формат роботи та співпрацю.</p>
 <div class="faqGrid">
 <div class="faqCol" role="list">
 <div class="faqItem" data-open="false" role="listitem">
@@ -215,6 +342,52 @@
 </div>
 </div>
 </div>
+</section>
+<section class="startProject" id="start-project">
+<div class="startProject__head">
+<div class="sectionKicker" data-i18n="startProject.kicker">ЗРОБІМО ЦЕ</div>
+<h3 data-i18n="startProject.title"><span>Готові</span><br/>почати?</h3>
+</div>
+<form action="https://formsubmit.co/etenprod@gmail.com" class="startProject__form" method="POST">
+<input name="_subject" type="hidden" value="New request from Eten Tech website"/>
+<input name="_template" type="hidden" value="table"/>
+<input name="_captcha" type="hidden" value="false"/>
+<input name="_next" type="hidden" value="https://etentech.pp.ua/?sent=1#start-project"/>
+<input name="_honey" style="display:none" tabindex="-1" type="text"/>
+<div class="startProject__label" data-i18n="startProject.contact">Контактна інформація</div>
+<div class="startProject__grid">
+<input autocomplete="name" data-i18n-placeholder="startProject.name" name="name" placeholder="Ваше ім'я" required type="text"/>
+<input autocomplete="email" data-i18n-placeholder="startProject.email" name="email" placeholder="Бізнес email" required type="email"/>
+</div>
+<textarea data-i18n-placeholder="startProject.project" name="project" placeholder="Розкажіть про ваш проєкт" required></textarea>
+<div class="startProject__field">
+<span data-i18n="startProject.budget">Бюджет *</span>
+<select class="startProject__nativeSelect" name="budget">
+<option data-i18n="startProject.select" value="">Оберіть...</option>
+<option data-i18n="startProject.budget1" value="starter">До $700</option>
+<option data-i18n="startProject.budget2" value="growth">$700 - $1500</option>
+<option data-i18n="startProject.budget3" value="system">$1500+</option>
+</select>
+<div class="startProject__select" data-custom-select>
+<button aria-expanded="false" class="startProject__selectButton" data-custom-select-button data-i18n="startProject.select" type="button">Оберіть...</button>
+<div class="startProject__selectMenu" data-custom-select-menu>
+<button class="is-active" data-i18n="startProject.select" data-value="" type="button">Оберіть...</button>
+<button data-i18n="startProject.budget1" data-value="starter" type="button">До $700</button>
+<button data-i18n="startProject.budget2" data-value="growth" type="button">$700 - $1500</button>
+<button data-i18n="startProject.budget3" data-value="system" type="button">$1500+</button>
+</div>
+</div>
+</div>
+<div class="startProject__checks">
+<div class="startProject__label" data-i18n="startProject.help">Чим можемо допомогти *</div>
+<label><input type="checkbox" name="help" value="branding"/><span data-i18n="startProject.branding">Брендинг</span></label>
+<label><input type="checkbox" name="help" value="design"/><span data-i18n="startProject.design">Дизайн</span></label>
+<label><input type="checkbox" name="help" value="development"/><span data-i18n="startProject.development">Розробка</span></label>
+<label><input type="checkbox" name="help" value="smm"/><span>SMM</span></label>
+</div>
+<button class="startProject__submit" data-i18n="startProject.submit" type="submit">Відправити заявку</button>
+<p class="startProject__status" data-form-status data-i18n="startProject.success">Заявку відправлено. Ми скоро зв'яжемось з вами.</p>
+</form>
 </section>
 </div>
 </main>
