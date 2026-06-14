@@ -2848,15 +2848,10 @@ html, body {
   grid-template-columns: minmax(0, 1.72fr) minmax(280px, .95fr);
   min-height: 545px;
   border-radius: 22px;
-  cursor: pointer;
   opacity: 0;
   transform: translateY(34px);
   transition: opacity .7s ease, transform .7s cubic-bezier(.2, .8, .2, 1);
   will-change: opacity, transform;
-}
-
-.featuredProjects__stage {
-  cursor: pointer;
 }
 
 .featuredProjects__arrow,
@@ -2867,11 +2862,6 @@ html, body {
 .portfolioProject.is-visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-.portfolioProject:focus-visible {
-  outline: 2px solid rgba(255,255,255,.78);
-  outline-offset: 8px;
 }
 
 .portfolioProject .featuredProjects__preview,

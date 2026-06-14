@@ -685,7 +685,6 @@
 
       stage.style.setProperty('--project-accent', project.accent);
       stage.style.setProperty('--project-accent-soft', project.accentSoft);
-      stage.dataset.projectLink = `project.html?project=${project.slug}`;
 
       Object.keys(fields).forEach(key => {
         if (!fields[key]) return;
@@ -727,10 +726,6 @@
 
     if (prevButton) prevButton.addEventListener('click', () => changeProject(-1));
     if (nextButton) nextButton.addEventListener('click', () => changeProject(1));
-    stage.addEventListener('click', (event) => {
-      if (event.target.closest('button, a')) return;
-      if (stage.dataset.projectLink) window.location.href = stage.dataset.projectLink;
-    });
     window.addEventListener('siteLangChanged', () => renderProject(activeIndex));
 
     renderProject(activeIndex);
@@ -885,27 +880,6 @@
         if (rect.top < window.innerHeight * 1.18) {
           revealProject(project);
           observer.unobserve(project);
-        }
-      });
-    });
-  };
-
-  const initPortfolioProjectLinks = () => {
-    document.querySelectorAll('[data-project-link]').forEach(card => {
-      const openProject = () => {
-        const href = card.getAttribute('data-project-link');
-        if (href) window.location.href = href;
-      };
-
-      card.addEventListener('click', (event) => {
-        if (event.target.closest('a, button')) return;
-        openProject();
-      });
-
-      card.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          openProject();
         }
       });
     });
@@ -1130,7 +1104,6 @@
   initCustomSelects();
   initStartProjectForm();
   initPortfolioScrollReveal();
-  initPortfolioProjectLinks();
   initProjectDetailPage();
   initLanguageSwitcher();
 });
