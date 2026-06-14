@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Eten Tech - Portfolio</title>
+<title>Eten Tech - Project</title>
 <link href="images/logo_icon.svg" rel="shortcut icon"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Michroma&amp;display=swap" rel="stylesheet"/>
 <link href="css/style.css" rel="stylesheet"/>
 </head>
-<body class="portfolioPage">
+<body class="projectPage">
 <header class="header">
 <div class="header__inner">
 <div class="header__left">
@@ -60,79 +60,63 @@
 </div>
 </header>
 
-<main class="portfolioMain">
-<section class="portfolioHero">
-<div class="portfolioHero__bg"></div>
-<div class="portfolioHero__inner">
-<div class="portfolioHero__kicker" data-i18n="portfolio.kicker">PORTFOLIO</div>
-<h1 data-i18n="portfolio.title">Latest Projects</h1>
-<p data-i18n="portfolio.desc">Selected systems, campaigns, and digital touchpoints built for service brands.</p>
+<main class="projectMain">
+<section class="caseHero">
+<div class="caseHero__inner">
+<a class="caseHero__back" href="portfolio.html" data-i18n="case.back">Back to portfolio</a>
+<div class="caseHero__copy">
+<div class="caseHero__kicker" data-case-category>Portfolio</div>
+<h1 data-case-title>Project title</h1>
+<p data-case-intro>Project intro</p>
+<div class="caseHero__meta">
+<div><span data-i18n="case.meta.scope">Scope</span><strong data-case-scope>Website</strong></div>
+<div><span data-i18n="case.meta.result">Result</span><strong data-case-result>+42%</strong></div>
+</div>
+</div>
 </div>
 </section>
 
-<section class="portfolioList" aria-label="Portfolio projects">
-<article class="portfolioProject" data-project-link="project.html?project=probouw" role="link" tabindex="0" style="--project-accent:#d91f26;--project-accent-soft:#f1c27d;">
-<div class="featuredProjects__preview">
-<div class="featuredProjects__browser">
-<div class="featuredProjects__browserTop"><span></span><span></span><span></span></div>
-<div class="featuredProjects__mockup">
-<img alt="" class="featuredProjects__siteShot" src="images/sites/previews/probouw.webp"/>
+<section class="caseMedia caseMedia--hero">
+<div class="caseHero__visual">
+<div class="caseBrowser">
+<div class="caseBrowser__top"><span></span><span></span><span></span></div>
+<img alt="" data-case-hero-image src="images/sites/previews/probouw.webp"/>
 </div>
 </div>
-<div class="featuredProjects__metric"><strong>+42%</strong><span data-i18n="featured.project1.metricLabel">Project Growth</span></div>
-</div>
-<div class="featuredProjects__info">
-<div><span class="featuredProjects__tag" data-i18n="featured.project1.category">Website</span><h2 data-i18n="featured.project1.title">Project title</h2></div>
-<div class="featuredProjects__infoBottom"><span data-i18n="featured.project1.service">Web - Design - Development</span><p data-i18n="featured.project1.description">Project description</p></div>
-</div>
-</article>
-<article class="portfolioProject" data-project-link="project.html?project=kolyba" role="link" tabindex="0" style="--project-accent:#c70000;--project-accent-soft:#f1c27d;">
-<div class="featuredProjects__preview">
-<div class="featuredProjects__browser">
-<div class="featuredProjects__browserTop"><span></span><span></span><span></span></div>
-<div class="featuredProjects__mockup">
-<img alt="" class="featuredProjects__siteShot" src="images/sites/previews/kolyba.webp"/>
-</div>
-</div>
-<div class="featuredProjects__metric"><strong>+58%</strong><span data-i18n="featured.project2.metricLabel">Project Growth</span></div>
-</div>
-<div class="featuredProjects__info">
-<div><span class="featuredProjects__tag" data-i18n="featured.project2.category">Website</span><h2 data-i18n="featured.project2.title">Project title</h2></div>
-<div class="featuredProjects__infoBottom"><span data-i18n="featured.project2.service">Web - Design - Development</span><p data-i18n="featured.project2.description">Project description</p></div>
-</div>
-</article>
-<article class="portfolioProject" data-project-link="project.html?project=monex" role="link" tabindex="0" style="--project-accent:#c89a57;--project-accent-soft:#e01818;">
-<div class="featuredProjects__preview">
-<div class="featuredProjects__browser">
-<div class="featuredProjects__browserTop"><span></span><span></span><span></span></div>
-<div class="featuredProjects__mockup">
-<img alt="" class="featuredProjects__siteShot" src="images/sites/previews/monex.webp"/>
-</div>
-</div>
-<div class="featuredProjects__metric"><strong>+36%</strong><span data-i18n="featured.project3.metricLabel">Project Growth</span></div>
-</div>
-<div class="featuredProjects__info">
-<div><span class="featuredProjects__tag" data-i18n="featured.project3.category">Website</span><h2 data-i18n="featured.project3.title">Project title</h2></div>
-<div class="featuredProjects__infoBottom"><span data-i18n="featured.project3.service">Web - Design - Development</span><p data-i18n="featured.project3.description">Project description</p></div>
-</div>
-</article>
-<article class="portfolioProject" data-project-link="project.html?project=oknaniko" role="link" tabindex="0" style="--project-accent:#3572ff;--project-accent-soft:#ff8a3d;">
-<div class="featuredProjects__preview">
-<div class="featuredProjects__browser">
-<div class="featuredProjects__browserTop"><span></span><span></span><span></span></div>
-<div class="featuredProjects__mockup">
-<img alt="" class="featuredProjects__siteShot" src="images/sites/previews/oknaniko.webp"/>
-</div>
-</div>
-<div class="featuredProjects__metric"><strong>+64%</strong><span data-i18n="featured.project4.metricLabel">Project Growth</span></div>
-</div>
-<div class="featuredProjects__info">
-<div><span class="featuredProjects__tag" data-i18n="featured.project4.category">Website</span><h2 data-i18n="featured.project4.title">Project title</h2></div>
-<div class="featuredProjects__infoBottom"><span data-i18n="featured.project4.service">Web - Design - Development</span><p data-i18n="featured.project4.description">Project description</p></div>
-</div>
-</article>
 </section>
-<section class="portfolioCta">
+
+<section class="caseSection caseOverview">
+<div class="caseSection__icon" aria-hidden="true">✦</div>
+<div class="caseSection__label" data-i18n="case.overview.label">Overview</div>
+<p data-case-overview></p>
+</section>
+
+<section class="caseSection caseSection--alt">
+<div class="caseSection__icon" aria-hidden="true">✤</div>
+<div class="caseSection__label" data-i18n="case.solutions.label">Solutions</div>
+<h2 data-i18n="case.solutions.title">What we changed</h2>
+<ul data-case-solutions></ul>
+</section>
+
+<section class="caseGallery" aria-label="Project screenshots" data-case-gallery></section>
+
+<section class="caseResults">
+<div>
+<span data-i18n="case.results.label">Results</span>
+<h2 data-i18n="case.results.title">Measurable website impact</h2>
+</div>
+<div class="caseResults__grid" data-case-results></div>
+</section>
+
+<section class="caseRelated">
+<div class="caseRelated__head">
+<span data-i18n="case.related.label">Related</span>
+<h2 data-i18n="case.related.title">More projects</h2>
+</div>
+<div class="caseRelated__grid" data-case-related></div>
+</section>
+
+<section class="portfolioCta caseCta">
 <div class="portfolioCta__inner">
 <p data-i18n="portfolio.cta.note">Have a project idea?</p>
 <a class="portfolioCta__button" href="index.html#start-project">
@@ -168,7 +152,7 @@
 <a class="footer__link" data-i18n="footer.terms" href="#">TERMS &amp; CONDITIONS</a>
 <a class="footer__link" data-i18n="footer.privacy" href="#">PRIVACY POLICY</a>
 </div>
-<a class="footer__cta" href="https://t.me/etentech">
+<a class="footer__cta" href="index.html#start-project">
 <span class="footer__ctaIcon"><img alt="" src="images/Rectangle 4342.svg"/></span>
 <span class="footer__ctaText" data-i18n="footer.cta">START<br/>A CONVERSATION</span>
 </a>

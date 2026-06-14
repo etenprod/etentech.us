@@ -5,6 +5,18 @@
       'nav.services': 'ПОСЛУГИ',
       'nav.faq': 'ПИТАННЯ',
       'nav.contact': 'НАПИСАТИ НАМ',
+      'case.back': 'Назад до портфоліо',
+      'case.meta.scope': 'Формат',
+      'case.meta.result': 'Результат',
+      'case.overview.label': 'Огляд',
+      'case.challenges.label': 'Задачі',
+      'case.challenges.title': 'Що потрібно було вирішити',
+      'case.solutions.label': 'Рішення',
+      'case.solutions.title': 'Що ми змінили',
+      'case.results.label': 'Результати',
+      'case.results.title': 'Вимірюваний вплив сайту',
+      'case.related.label': 'Ще',
+      'case.related.title': 'Інші проєкти',
 
       'hero.leftTitle': 'МAРКЕТИНГ<br>ЯК СИСТЕМА,<br>А НЕ ВИПАДКОВІСТЬ',
       'hero.leftDesc': 'Ми будуємо цілісні рішення, де кожен елемент працює на спільний результат.',
@@ -185,6 +197,18 @@
       'nav.services': 'SERVICES',
       'nav.faq': 'FAQ',
       'nav.contact': 'WRITE TO US',
+      'case.back': 'Back to portfolio',
+      'case.meta.scope': 'Scope',
+      'case.meta.result': 'Result',
+      'case.overview.label': 'Overview',
+      'case.challenges.label': 'Challenges',
+      'case.challenges.title': 'What had to be solved',
+      'case.solutions.label': 'Solutions',
+      'case.solutions.title': 'What we changed',
+      'case.results.label': 'Results',
+      'case.results.title': 'Measurable website impact',
+      'case.related.label': 'Related',
+      'case.related.title': 'More projects',
 
       'hero.leftTitle': 'MARKETING<br>AS A SYSTEM,<br>NOT A COINCIDENCE',
       'hero.leftDesc': 'We build complete solutions where every element works toward one shared result.',
@@ -361,6 +385,157 @@
     }
   };
 
+  const projectCases = {
+    probouw: {
+      accent: '#d91f26',
+      title: { uk: 'Probouw Store', en: 'Probouw Store' },
+      category: { uk: 'E-commerce каталог', en: 'E-commerce catalogue' },
+      intro: {
+        uk: 'Структурували каталог плитки та матеріалів так, щоб клієнт швидше знаходив колекції, розумів асортимент і переходив до запиту ціни.',
+        en: 'We structured a tile and materials catalogue so customers can find collections faster, understand the range, and move toward a quote request.'
+      },
+      scope: { uk: 'Каталог - фільтри - запит ціни', en: 'Catalogue - Filters - Quote flow' },
+      result: '+42%',
+      overview: {
+        uk: 'Проєкту потрібна була зрозуміла магазинна логіка: головна сторінка, категорії, колекції, товарні блоки та контактний шлях без зайвих кроків. Ми зібрали сторінки в систему, де візуальний вибір матеріалів поєднаний з простим сценарієм звернення.',
+        en: 'The project needed a clear store logic: homepage, categories, collections, product blocks, and a contact path without extra friction. We connected visual material browsing with a simple enquiry flow.'
+      },
+      challenges: {
+        uk: ['Показати великий асортимент без перевантаження.', 'Зробити шлях до запиту ціни помітним.', 'Зберегти чистий вигляд каталогу на мобільних.'],
+        en: ['Show a large catalogue without visual overload.', 'Make the quote request path easy to notice.', 'Keep the catalogue clean on mobile screens.']
+      },
+      solutions: {
+        uk: ['Побудували зрозумілу ієрархію категорій і колекцій.', 'Винесли ключові дії поруч із товарними блоками.', 'Адаптували картки, фільтри та превʼю під швидкий перегляд.'],
+        en: ['Built a clear hierarchy for categories and collections.', 'Placed key actions close to product blocks.', 'Adapted cards, filters, and previews for fast browsing.']
+      },
+      results: {
+        uk: ['Швидший вибір колекцій', 'Зрозуміліший каталог', 'Менше кроків до запиту'],
+        en: ['Faster collection browsing', 'Clearer catalogue structure', 'Fewer steps to enquiry']
+      },
+      images: [
+        'images/sites/probouw/1920w light.png',
+        'images/sites/probouw/600-380w light.png',
+        'images/sites/probouw/600-380.png'
+      ],
+      gallery: [
+        { type: 'scene-split', images: ['images/sites/probouw/1920w light-1.png', 'images/sites/probouw/600-380w light.png'] },
+        { type: 'scene-angle', images: ['images/sites/probouw/600-380.png', 'images/sites/probouw/1920w light.png', 'images/sites/probouw/600-380w light.png'] },
+        { type: 'scene-stack', images: ['images/sites/probouw/1920w light.png', 'images/sites/probouw/600-380w light.png'] },
+        { type: 'scene-mobile', images: ['images/sites/probouw/600-380.png', 'images/sites/probouw/600-380w light.png'] }
+      ]
+    },
+    kolyba: {
+      accent: '#c70000',
+      title: { uk: 'Kolyba Restaurant', en: 'Kolyba Restaurant' },
+      category: { uk: 'Сайт ресторану', en: 'Restaurant website' },
+      intro: {
+        uk: 'Атмосферний сайт ресторану, де меню, події, доставка і бронювання зібрані в одну спокійну та виразну подачу.',
+        en: 'An atmospheric restaurant website where menu, events, delivery, and booking are brought into one warm and expressive experience.'
+      },
+      scope: { uk: 'Сайт - меню - бронювання', en: 'Website - Menu - Booking' },
+      result: '+58%',
+      overview: {
+        uk: 'Головне завдання полягало в тому, щоб передати характер закладу і не втратити практичність. Сторінка мала одночасно створювати настрій, показувати пропозиції та вести гостя до бронювання.',
+        en: 'The main goal was to express the restaurant character without losing practical clarity. The page had to create mood, present offers, and guide guests toward booking.'
+      },
+      challenges: {
+        uk: ['Поєднати атмосферу ресторану з функціональністю.', 'Зробити меню і події легкими для перегляду.', 'Не заховати бронювання серед контенту.'],
+        en: ['Balance restaurant atmosphere with functionality.', 'Make menu and events easy to browse.', 'Keep booking visible inside rich content.']
+      },
+      solutions: {
+        uk: ['Зібрали сторінки навколо сильного першого екрану.', 'Додали окремі сценарії для меню, подій і доставки.', 'Посилили заклики до бронювання в ключових місцях.'],
+        en: ['Built the pages around a strong first screen.', 'Added separate paths for menu, events, and delivery.', 'Reinforced booking calls in key sections.']
+      },
+      results: {
+        uk: ['Більше бронювань', 'Ясніша структура меню', 'Сильніша атмосфера бренду'],
+        en: ['More table bookings', 'Clearer menu structure', 'Stronger brand atmosphere']
+      },
+      images: [
+        'images/sites/kolyba/600-380w-1.png',
+        'images/sites/kolyba/Site Kolyba_Menu.png',
+        'images/sites/kolyba/600-380w.png'
+      ],
+      gallery: [
+        { type: 'scene-split', images: ['images/sites/kolyba/1920w.png', 'images/sites/kolyba/Site Kolyba_Menu.png'] },
+        { type: 'scene-angle', images: ['images/sites/kolyba/600-380w-1.png', 'images/sites/kolyba/600-380w.png', 'images/sites/kolyba/Site Kolyba_Menu.png'] },
+        { type: 'scene-stack', images: ['images/sites/kolyba/Site Kolyba_Menu.png', 'images/sites/kolyba/600-380w.png'] },
+        { type: 'scene-mobile', images: ['images/sites/kolyba/600-380w-1.png', 'images/sites/kolyba/600-380w.png'] }
+      ]
+    },
+    monex: {
+      accent: '#c89a57',
+      title: { uk: 'Monex Exchange', en: 'Monex Exchange' },
+      category: { uk: 'Fintech платформа', en: 'Fintech platform' },
+      intro: {
+        uk: 'Інтерфейс для обміну валют і crypto з live-курсами, калькулятором, заявкою та зрозумілим шляхом до офісів і FAQ.',
+        en: 'An exchange interface for cash and crypto with live rates, calculator, request flow, offices, and FAQ in one clear path.'
+      },
+      scope: { uk: 'UI - калькулятор - заявки', en: 'UI - Calculator - Requests' },
+      result: '+36%',
+      overview: {
+        uk: 'Для фінансового сервісу важливо швидко зняти напругу: показати курс, пояснити дію і дати просту форму звернення. Ми зробили темний інтерфейс з акцентом на швидкий розрахунок і довіру.',
+        en: 'For a finance service, the interface needs to reduce hesitation quickly: show rates, explain the action, and provide a simple request form. We built a dark UI focused on fast calculation and trust.'
+      },
+      challenges: {
+        uk: ['Показати багато даних без відчуття складності.', 'Зробити калькулятор центральним сценарієм.', 'Підтримати довіру через структуру і FAQ.'],
+        en: ['Show a lot of data without making it feel complex.', 'Make the calculator the central interaction.', 'Support trust through structure and FAQ.']
+      },
+      solutions: {
+        uk: ['Винесли курси та обмін у перший сценарій.', 'Скоротили шлях від розрахунку до заявки.', 'Додали зрозумілі блоки офісів, умов і відповідей.'],
+        en: ['Placed rates and exchange flow upfront.', 'Shortened the path from calculation to request.', 'Added clear office, terms, and FAQ blocks.']
+      },
+      results: {
+        uk: ['Швидший шлях до заявки', 'Зрозумілий обмінний сценарій', 'Більше довіри до сервісу'],
+        en: ['Faster request path', 'Clear exchange scenario', 'More trust in the service']
+      },
+      images: [
+        'images/sites/monex/[LIGHT] Landing Page (WIDE).png',
+        'images/sites/monex/[LIGHT] Landing Page (768-300).png'
+      ],
+      gallery: [
+        { type: 'scene-split', images: ['images/sites/monex/[LIGHT] Landing Page (WIDE).png', 'images/sites/monex/[LIGHT] Landing Page (768-300).png'] },
+        { type: 'scene-angle', images: ['images/sites/monex/[LIGHT] Landing Page (768-300).png', 'images/sites/monex/[LIGHT] Landing Page (WIDE).png'] },
+        { type: 'scene-stack', images: ['images/sites/monex/[LIGHT] Landing Page (WIDE).png', 'images/sites/monex/[LIGHT] Landing Page (768-300).png'] }
+      ]
+    },
+    oknaniko: {
+      accent: '#3572ff',
+      title: { uk: 'OknaNiko', en: 'OknaNiko' },
+      category: { uk: 'Сервісний лендінг', en: 'Service landing' },
+      intro: {
+        uk: 'Лендінг для ремонту вікон, який швидко пояснює проблему, показує довіру та веде користувача до звернення.',
+        en: 'A landing page for window repair that quickly explains the problem, builds trust, and guides users toward contact.'
+      },
+      scope: { uk: 'Лендінг - довіра - заявки', en: 'Landing - Trust - Requests' },
+      result: '+64%',
+      overview: {
+        uk: 'Сторінка мала працювати для швидкого рішення: людина відчуває проблему, бачить сервіс, перевіряє довіру і залишає заявку. Ми зібрали цей шлях в одну пряму структуру з сильним першим екраном.',
+        en: 'The page needed to work for a quick decision: users recognize the problem, see the service, check trust signals, and contact the business. We shaped that into one direct flow with a strong hero.'
+      },
+      challenges: {
+        uk: ['Одразу пояснити, яку проблему вирішує сервіс.', 'Показати переваги без довгого читання.', 'Зробити мобільну версію такою ж зручною.'],
+        en: ['Explain the service problem immediately.', 'Show benefits without long reading.', 'Make mobile just as convenient.']
+      },
+      solutions: {
+        uk: ['Побудували перший екран навколо болю клієнта.', 'Додали блоки переваг, процесу і відгуків.', 'Винесли контактні дії в помітні місця сторінки.'],
+        en: ['Built the hero around the customer pain point.', 'Added benefits, process, and review sections.', 'Placed contact actions in highly visible areas.']
+      },
+      results: {
+        uk: ['Більше звернень', 'Коротший шлях до контакту', 'Краща мобільна подача'],
+        en: ['More client requests', 'Shorter path to contact', 'Better mobile experience']
+      },
+      images: [
+        'images/sites/oknaniko/OknaNiko Desktop 1920.png',
+        'images/sites/oknaniko/OknaNiko Mobile 375.png'
+      ],
+      gallery: [
+        { type: 'scene-split', images: ['images/sites/oknaniko/OknaNiko Desktop 1920.png', 'images/sites/oknaniko/OknaNiko Mobile 375.png'] },
+        { type: 'scene-angle', images: ['images/sites/oknaniko/OknaNiko Desktop 1920.png', 'images/sites/oknaniko/OknaNiko Mobile 375.png'] },
+        { type: 'scene-mobile', images: ['images/sites/oknaniko/OknaNiko Mobile 375.png', 'images/sites/oknaniko/OknaNiko Desktop 1920.png'] }
+      ]
+    }
+  };
+
   const initSmoothScroll = () => {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', (e) => {
@@ -452,6 +627,7 @@
 
     const projects = [
       {
+        slug: 'probouw',
         accent: '#d91f26',
         accentSoft: '#f1c27d',
         metric: '+42%',
@@ -459,6 +635,7 @@
         key: 'featured.project1'
       },
       {
+        slug: 'kolyba',
         accent: '#c70000',
         accentSoft: '#f1c27d',
         metric: '+58%',
@@ -466,6 +643,7 @@
         key: 'featured.project2'
       },
       {
+        slug: 'monex',
         accent: '#c89a57',
         accentSoft: '#e01818',
         metric: '+36%',
@@ -473,6 +651,7 @@
         key: 'featured.project3'
       },
       {
+        slug: 'oknaniko',
         accent: '#3572ff',
         accentSoft: '#ff8a3d',
         metric: '+64%',
@@ -506,6 +685,7 @@
 
       stage.style.setProperty('--project-accent', project.accent);
       stage.style.setProperty('--project-accent-soft', project.accentSoft);
+      stage.dataset.projectLink = `project.html?project=${project.slug}`;
 
       Object.keys(fields).forEach(key => {
         if (!fields[key]) return;
@@ -547,6 +727,10 @@
 
     if (prevButton) prevButton.addEventListener('click', () => changeProject(-1));
     if (nextButton) nextButton.addEventListener('click', () => changeProject(1));
+    stage.addEventListener('click', (event) => {
+      if (event.target.closest('button, a')) return;
+      if (stage.dataset.projectLink) window.location.href = stage.dataset.projectLink;
+    });
     window.addEventListener('siteLangChanged', () => renderProject(activeIndex));
 
     renderProject(activeIndex);
@@ -706,6 +890,155 @@
     });
   };
 
+  const initPortfolioProjectLinks = () => {
+    document.querySelectorAll('[data-project-link]').forEach(card => {
+      const openProject = () => {
+        const href = card.getAttribute('data-project-link');
+        if (href) window.location.href = href;
+      };
+
+      card.addEventListener('click', (event) => {
+        if (event.target.closest('a, button')) return;
+        openProject();
+      });
+
+      card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          openProject();
+        }
+      });
+    });
+  };
+
+  const initProjectDetailPage = () => {
+    const page = document.querySelector('.projectPage');
+    if (!page) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const slug = projectCases[params.get('project')] ? params.get('project') : 'probouw';
+    const project = projectCases[slug];
+    let hasRendered = false;
+
+    const setText = (selector, value) => {
+      const element = document.querySelector(selector);
+      if (element) element.textContent = value || '';
+    };
+
+    const renderList = (selector, items = []) => {
+      const list = document.querySelector(selector);
+      if (!list) return;
+      list.innerHTML = items.map(item => `<li>${item}</li>`).join('');
+    };
+
+    const render = () => {
+      const lang = localStorage.getItem('siteLang') === 'uk' ? 'uk' : 'en';
+
+      document.title = `Eten Tech - ${project.title[lang]}`;
+      page.style.setProperty('--case-accent', project.accent);
+
+      setText('[data-case-category]', project.category[lang]);
+      setText('[data-case-title]', project.title[lang]);
+      setText('[data-case-intro]', project.intro[lang]);
+      setText('[data-case-scope]', project.scope[lang]);
+      setText('[data-case-result]', project.result);
+      setText('[data-case-overview]', project.overview[lang]);
+      renderList('[data-case-challenges]', project.challenges[lang]);
+      renderList('[data-case-solutions]', project.solutions[lang]);
+
+      const heroImage = document.querySelector('[data-case-hero-image]');
+      if (heroImage) {
+        heroImage.src = project.images[0];
+        heroImage.alt = project.title[lang];
+      }
+
+      const results = document.querySelector('[data-case-results]');
+      if (results) {
+        results.innerHTML = project.results[lang].map((item, index) => (
+          `<article><strong>${index === 0 ? project.result : `0${index + 1}`}</strong><span>${item}</span></article>`
+        )).join('');
+      }
+
+      const gallery = document.querySelector('[data-case-gallery]');
+      if (gallery) {
+        const galleryItems = project.gallery || project.images.map(src => ({ type: 'wide', images: [src] }));
+
+        gallery.innerHTML = galleryItems.map((item, index) => {
+          const type = item.type || 'wide';
+          const images = item.images || [];
+
+          if (type.startsWith('scene-')) {
+            return `<figure class="caseGallery__item caseGallery__item--scene caseGallery__item--${type}">
+              ${images.map((src, imageIndex) => (
+                `<div class="caseBrowser">
+                  <div class="caseBrowser__top"><span></span><span></span><span></span></div>
+                  <img alt="${project.title[lang]} screenshot ${index + 1}.${imageIndex + 1}" loading="lazy" src="${src}"/>
+                </div>`
+              )).join('')}
+            </figure>`;
+          }
+
+          if (type === 'pair') {
+            return `<figure class="caseGallery__item caseGallery__item--pair">
+              ${images.map((src, imageIndex) => (
+                `<div class="caseBrowser">
+                  <div class="caseBrowser__top"><span></span><span></span><span></span></div>
+                  <img alt="${project.title[lang]} screenshot ${index + 1}.${imageIndex + 1}" loading="lazy" src="${src}"/>
+                </div>`
+              )).join('')}
+            </figure>`;
+          }
+
+          return `<figure class="caseGallery__item caseGallery__item--${type}">
+            <div class="caseBrowser">
+              <div class="caseBrowser__top"><span></span><span></span><span></span></div>
+              <img alt="${project.title[lang]} screenshot ${index + 1}" loading="${index === 0 ? 'eager' : 'lazy'}" src="${images[0]}"/>
+            </div>
+          </figure>`;
+        }).join('');
+
+        if (hasRendered) {
+          gallery.querySelectorAll('.caseGallery__item').forEach(item => item.classList.add('is-visible'));
+        }
+      }
+
+      const related = document.querySelector('[data-case-related]');
+      if (related) {
+        const relatedProjects = Object.entries(projectCases)
+          .filter(([key]) => key !== slug)
+          .slice(0, 2);
+
+        related.innerHTML = relatedProjects.map(([key, item]) => (
+          `<a class="caseRelated__card" href="project.html?project=${key}">
+            <img alt="${item.title[lang]}" src="${item.images[0]}" loading="lazy"/>
+            <span>${item.category[lang]}</span>
+            <strong>${item.title[lang]}</strong>
+          </a>`
+        )).join('');
+      }
+
+      hasRendered = true;
+    };
+
+    render();
+    window.addEventListener('siteLangChanged', render);
+
+    const blocks = document.querySelectorAll('.caseHero__copy, .caseHero__visual, .caseSection, .caseGallery__item, .caseResults, .caseRelated, .caseCta');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px 18% 0px',
+      threshold: 0.04
+    });
+
+    blocks.forEach(block => observer.observe(block));
+  };
+
   const setLang = (lang) => {
     const selectedLang = lang === 'uk' ? 'uk' : 'en';
     const dictionary = translations[selectedLang];
@@ -729,14 +1062,21 @@
       }
     });
 
+    document.querySelectorAll('[data-lang-current]').forEach(label => {
+      label.textContent = selectedLang === 'uk' ? 'ua' : 'en';
+    });
+
     document.querySelectorAll('[data-lang-toggle]').forEach(button => {
-      button.innerHTML = selectedLang === 'uk'
-        ? '<img src="images/flag-en.svg" alt="English">'
-        : '<img src="images/flag-ua.svg" alt="Українська">';
       button.setAttribute(
         'aria-label',
-        selectedLang === 'uk' ? 'Switch to English' : 'Перемкнути українською'
+        selectedLang === 'uk' ? 'Open language menu' : 'Відкрити меню мови'
       );
+    });
+
+    document.querySelectorAll('[data-lang-option]').forEach(option => {
+      const optionLang = option.dataset.langOption === 'uk' ? 'uk' : 'en';
+      option.classList.toggle('is-active', optionLang === selectedLang);
+      option.hidden = optionLang === selectedLang;
     });
 
     window.dispatchEvent(new CustomEvent('siteLangChanged', {
@@ -745,18 +1085,41 @@
   };
 
   const initLanguageSwitcher = () => {
-    const langButtons = document.querySelectorAll('[data-lang-toggle]');
+    const langSelects = document.querySelectorAll('[data-lang-select]');
 
     setLang(detectInitialLang());
 
-    langButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const currentLang = localStorage.getItem('siteLang') || detectInitialLang();
-        const nextLang = currentLang === 'uk' ? 'en' : 'uk';
+    const closeAll = (except = null) => {
+      langSelects.forEach(select => {
+        if (select === except) return;
+        select.classList.remove('is-open');
+        select.querySelector('[data-lang-toggle]')?.setAttribute('aria-expanded', 'false');
+      });
+    };
 
-        setLang(nextLang);
+    langSelects.forEach(select => {
+      const trigger = select.querySelector('[data-lang-toggle]');
+
+      if (!trigger) return;
+
+      trigger.addEventListener('click', (event) => {
+        event.stopPropagation();
+        const isOpen = select.classList.toggle('is-open');
+        closeAll(select);
+        trigger.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      select.querySelectorAll('[data-lang-option]').forEach(option => {
+        option.addEventListener('click', (event) => {
+          event.stopPropagation();
+          setLang(option.dataset.langOption === 'uk' ? 'uk' : 'en');
+          select.classList.remove('is-open');
+          trigger.setAttribute('aria-expanded', 'false');
+        });
       });
     });
+
+    document.addEventListener('click', () => closeAll());
   };
 
   initSmoothScroll();
@@ -767,5 +1130,7 @@
   initCustomSelects();
   initStartProjectForm();
   initPortfolioScrollReveal();
+  initPortfolioProjectLinks();
+  initProjectDetailPage();
   initLanguageSwitcher();
 });

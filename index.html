@@ -29,7 +29,13 @@
 </nav>
 <div aria-label="Дії шапки" class="header__icons">
 <a class="header__contactLink" data-i18n="nav.contact" href="#start-project">НАПИСАТИ НАМ</a>
-<button aria-label="Switch language" class="langBtn" data-lang-toggle="" type="button">EN</button></div>
+<div class="langSelect" data-lang-select>
+<button aria-expanded="false" aria-label="Switch language" class="langBtn" data-lang-toggle="" type="button"><span data-lang-current="">en</span><svg aria-hidden="true" fill="none" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg></button>
+<div class="langMenu" data-lang-menu="">
+<button data-lang-option="en" type="button">en</button>
+<button data-lang-option="uk" type="button">ua</button>
+</div>
+</div></div>
 <button aria-expanded="false" aria-label="Menu" class="header__burger" type="button">
 <span></span><span></span><span></span>
 </button>
@@ -43,7 +49,13 @@
 <a class="header__drawerLink" data-i18n="nav.contact" href="#start-project">НАПИСАТИ НАМ</a>
 </nav>
 <div aria-label="Дії" class="header__drawerSocial">
-<button aria-label="Switch language" class="header__drawerIconBtn langBtn langBtn--mobile" data-lang-toggle="" type="button">EN</button></div>
+<div class="langSelect langSelect--mobile" data-lang-select>
+<button aria-expanded="false" aria-label="Switch language" class="langBtn langBtn--mobile" data-lang-toggle="" type="button"><span data-lang-current="">en</span><svg aria-hidden="true" fill="none" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg></button>
+<div class="langMenu" data-lang-menu="">
+<button data-lang-option="en" type="button">en</button>
+<button data-lang-option="uk" type="button">ua</button>
+</div>
+</div></div>
 </div>
 </header>
 <section class="hero" id="home">
