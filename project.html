@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -22,19 +22,12 @@
 </div>
 <div class="header__right">
 <nav aria-label="Navigation" class="header__nav">
-<a class="header__link" data-i18n="nav.home" href="index.html#home">HOME</a>
-<a class="header__link" data-i18n="nav.services" href="index.html#services">SERVICES</a>
-<a class="header__link" data-i18n="nav.faq" href="index.html#faq">FAQ</a>
+<a class="header__link" href="index.html#home">HOME</a>
+<a class="header__link" href="index.html#services">SERVICES</a>
+<a class="header__link" href="index.html#faq">FAQ</a>
 </nav>
 <div aria-label="Header actions" class="header__icons">
-<a class="header__contactLink" data-i18n="nav.contact" href="index.html#start-project">WRITE TO US</a>
-<div class="langSelect" data-lang-select>
-<button aria-expanded="false" aria-label="Switch language" class="langBtn" data-lang-toggle="" type="button"><span data-lang-current="">en</span><svg aria-hidden="true" fill="none" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg></button>
-<div class="langMenu" data-lang-menu="">
-<button data-lang-option="en" type="button">en</button>
-<button data-lang-option="uk" type="button">ua</button>
-</div>
-</div>
+<a class="header__contactLink" href="index.html#start-project">WRITE TO US</a>
 </div>
 <button aria-expanded="false" aria-label="Menu" class="header__burger" type="button">
 <span></span><span></span><span></span>
@@ -43,19 +36,12 @@
 </div>
 <div aria-hidden="true" class="header__drawer">
 <nav aria-label="Mobile navigation" class="header__drawerNav">
-<a class="header__drawerLink" data-i18n="nav.home" href="index.html#home">HOME</a>
-<a class="header__drawerLink" data-i18n="nav.services" href="index.html#services">SERVICES</a>
-<a class="header__drawerLink" data-i18n="nav.faq" href="index.html#faq">FAQ</a>
-<a class="header__drawerLink" data-i18n="nav.contact" href="index.html#start-project">WRITE TO US</a>
+<a class="header__drawerLink" href="index.html#home">HOME</a>
+<a class="header__drawerLink" href="index.html#services">SERVICES</a>
+<a class="header__drawerLink" href="index.html#faq">FAQ</a>
+<a class="header__drawerLink" href="index.html#start-project">WRITE TO US</a>
 </nav>
 <div aria-label="Header actions" class="header__drawerSocial">
-<div class="langSelect langSelect--mobile" data-lang-select>
-<button aria-expanded="false" aria-label="Switch language" class="langBtn langBtn--mobile" data-lang-toggle="" type="button"><span data-lang-current="">en</span><svg aria-hidden="true" fill="none" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg></button>
-<div class="langMenu" data-lang-menu="">
-<button data-lang-option="en" type="button">en</button>
-<button data-lang-option="uk" type="button">ua</button>
-</div>
-</div>
 </div>
 </div>
 </header>
@@ -63,14 +49,14 @@
 <main class="projectMain">
 <section class="caseHero">
 <div class="caseHero__inner">
-<a class="caseHero__back" href="portfolio.html" data-i18n="case.back">Back to portfolio</a>
+<a class="caseHero__back" href="portfolio.html">Back to portfolio</a>
 <div class="caseHero__copy">
 <div class="caseHero__kicker" data-case-category>Portfolio</div>
 <h1 data-case-title>Project title</h1>
 <p data-case-intro>Project intro</p>
 <div class="caseHero__meta">
-<div><span data-i18n="case.meta.scope">Scope</span><strong data-case-scope>Website</strong></div>
-<div><span data-i18n="case.meta.result">Result</span><strong data-case-result>+42%</strong></div>
+<div><span>Scope</span><strong data-case-scope>Website</strong></div>
+<div><span>Result</span><strong data-case-result>+42%</strong></div>
 </div>
 </div>
 </div>
@@ -86,15 +72,15 @@
 </section>
 
 <section class="caseSection caseOverview">
-<div class="caseSection__icon" aria-hidden="true">✦</div>
-<div class="caseSection__label" data-i18n="case.overview.label">Overview</div>
+<div class="caseSection__icon" aria-hidden="true">*</div>
+<div class="caseSection__label">Overview</div>
 <p data-case-overview></p>
 </section>
 
 <section class="caseSection caseSection--alt">
-<div class="caseSection__icon" aria-hidden="true">✤</div>
-<div class="caseSection__label" data-i18n="case.solutions.label">Solutions</div>
-<h2 data-i18n="case.solutions.title">What we changed</h2>
+<div class="caseSection__icon" aria-hidden="true">*</div>
+<div class="caseSection__label">Solutions</div>
+<h2>What we changed</h2>
 <ul data-case-solutions></ul>
 </section>
 
@@ -102,30 +88,30 @@
 
 <section class="caseResults">
 <div>
-<span data-i18n="case.results.label">Results</span>
-<h2 data-i18n="case.results.title">Measurable website impact</h2>
+<span>Results</span>
+<h2>Measurable website impact</h2>
 </div>
 <div class="caseResults__grid" data-case-results></div>
 </section>
 
 <section class="caseRelated">
 <div class="caseRelated__head">
-<span data-i18n="case.related.label">Related</span>
-<h2 data-i18n="case.related.title">More projects</h2>
+<span>Related</span>
+<h2>More projects</h2>
 </div>
 <div class="caseRelated__grid" data-case-related></div>
 </section>
 
 <section class="portfolioCta caseCta">
 <div class="portfolioCta__inner">
-<p data-i18n="portfolio.cta.note">Have a project idea?</p>
+<p>Have a project idea?</p>
 <a class="portfolioCta__button" href="index.html#start-project">
 <span class="portfolioCta__icon" aria-hidden="true">
 <svg viewBox="0 0 24 24" fill="none">
 <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
-<span class="portfolioCta__text" data-i18n="portfolio.cta.button">Let's get started</span>
+<span class="portfolioCta__text">Let's get started</span>
 </a>
 </div>
 </section>
@@ -133,12 +119,12 @@
 
 <footer class="footer portfolioFooter">
 <div class="footer__inner">
-<div class="footer__title" data-i18n="footer.title">THERE ARE NO LIMITS<br/>TO PERFECTION</div>
+<div class="footer__title">THERE ARE NO LIMITS<br>TO PERFECTION</div>
 <nav aria-label="Footer navigation" class="footer__col">
-<a class="footer__link" data-i18n="nav.home" href="index.html#home">HOME</a>
-<a class="footer__link" data-i18n="nav.services" href="index.html#services">SERVICES</a>
-<a class="footer__link" data-i18n="nav.faq" href="index.html#faq">FAQ</a>
-<a class="footer__link" data-i18n="nav.contact" href="index.html#start-project">WRITE TO US</a>
+<a class="footer__link" href="index.html#home">HOME</a>
+<a class="footer__link" href="index.html#services">SERVICES</a>
+<a class="footer__link" href="index.html#faq">FAQ</a>
+<a class="footer__link" href="index.html#start-project">WRITE TO US</a>
 </nav>
 <div aria-label="Social links" class="footer__col">
 <a class="footer__link" href="https://www.instagram.com/eten_tech/" rel="noopener" target="_blank">INSTAGRAM</a>
@@ -146,15 +132,15 @@
 </div>
 <div class="footer__col footer__meta">
 <div class="footer__metaText">&copy; 2025</div>
-<div class="footer__metaText" data-i18n="footer.agency">MARKETING AGENCY</div>
+<div class="footer__metaText">MARKETING AGENCY</div>
 </div>
 <div class="footer__col footer__legal">
-<a class="footer__link" data-i18n="footer.terms" href="#">TERMS &amp; CONDITIONS</a>
-<a class="footer__link" data-i18n="footer.privacy" href="#">PRIVACY POLICY</a>
+<a class="footer__link" href="#">TERMS & CONDITIONS</a>
+<a class="footer__link" href="#">PRIVACY POLICY</a>
 </div>
 <a class="footer__cta" href="index.html#start-project">
 <span class="footer__ctaIcon"><img alt="" src="images/Rectangle 4342.svg"/></span>
-<span class="footer__ctaText" data-i18n="footer.cta">START<br/>A CONVERSATION</span>
+<span class="footer__ctaText">START<br>A CONVERSATION</span>
 </a>
 </div>
 </footer>
